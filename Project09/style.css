@@ -15,7 +15,9 @@
 }
 
 body {
-  background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+  /* background: linear-gradient(45deg, #190361 0%, #BB00FF 100%); */
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
   height: 100vh;
   display: grid;
   align-items: center;
@@ -126,12 +128,21 @@ h1, h2 {
 }
 
 @keyframes gradient {
-  0% {background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);}
+  /* 0% {background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);}
   12,5% {background: linear-gradient(90deg, #190361 0%, #BB00FF 100%);}
   25% {background: linear-gradient(135deg, #190361 0%, #BB00FF 100%);}
   37,5% {background: linear-gradient(180deg, #190361 0%, #BB00FF 100%);}
   50% {background: linear-gradient(225deg, #190361 0%, #BB00FF 100%);}
   62,5% {background: linear-gradient(270deg, #190361 0%, #BB00FF 100%);}
   75% {background: linear-gradient(315deg, #190361 0%, #BB00FF 100%);}
-  100% {background: linear-gradient(360deg, #190361 0%, #BB00FF 100%);}
+  100% {background: linear-gradient(360deg, #190361 0%, #BB00FF 100%);} */
+  0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
