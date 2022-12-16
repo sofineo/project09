@@ -55,6 +55,7 @@ h1, h2, button {
 p {
   font-family: 'DM Sans', sans-serif;
   font-size: var(--fs-secondary);
+  line-height: 2rem;
   font-weight: 400;
   margin: 1.4rem 0 2rem;
 }
@@ -62,6 +63,7 @@ p {
 section {
   font-family: 'Dancing Script', cursive;
   font-size: var(--fs-primary);
+  line-height: 2.9rem;
   margin: 1.7rem 0;
   background: #E4EDF1;
   box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
@@ -73,6 +75,7 @@ section {
 h1, h2 {
   font-size: var(--fs-primary);
   font-weight: 700;
+  line-height: 2.9rem;
 }
 
 .screen1 button {
@@ -87,6 +90,7 @@ h1, h2 {
 
 .screen2 button {
   font-size: var(--fs-secondary);
+  line-height: 2rem;
   color: var(--color1);
   font-weight: 700;
   background: #FF9500;
